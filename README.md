@@ -47,7 +47,7 @@ MISSION      : Transform data into reliable decisions
 ```
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>READ THE FULL PROFILE IN PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>READ THE FULL PROFILE IN PORTUGUÊS</strong></summary>
 
 <br/>
 
@@ -141,7 +141,7 @@ Skills developed through academic training, professional experience, and hands-o
 - Structured problem-solving.
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>VER A ÁRVORE DE COMPETÊNCIAS EM PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>VER A ÁRVORE DE COMPETÊNCIAS EM PORTUGUÊS</strong></summary>
 
 <br/>
 
@@ -233,7 +233,7 @@ Skills developed through academic training, professional experience, and hands-o
 </p>
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>VER MINHA STACK EM PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>VER MINHA STACK EM PORTUGUÊS</strong></summary>
 
 <br/>
 
@@ -287,7 +287,7 @@ The project was designed to bring operational indicators together in one place, 
 </p>
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>CONHEÇA O PAINEL OPERACIONAL EM PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>CONHEÇA O PAINEL OPERACIONAL EM PORTUGUÊS</strong></summary>
 
 <br/>
 
@@ -347,7 +347,7 @@ Connecting business needs with technical implementation through testing, documen
 These quests describe areas of work and technical focus, not separate public repositories.
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>LER AS MISSÕES EM PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>LER AS MISSÕES EM PORTUGUÊS</strong></summary>
 
 <br/>
 
@@ -401,7 +401,7 @@ Essas missões representam áreas de atuação e interesse técnico, não reposi
 I believe technology is not just about making something work. It is also about understanding why it works, where its limitations are, how it can fail, and whether its output is reliable for the people who depend on it.
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>VER AS HABILIDADES EM PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>VER AS HABILIDADES EM PORTUGUÊS</strong></summary>
 
 <br/>
 
@@ -438,7 +438,7 @@ Acredito que tecnologia não se resume a fazer algo funcionar. Também é precis
 - **Alura — Desenvolvendo com Inteligência: IA para Dev**
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>FORMAÇÃO E CERTIFICAÇÕES EM PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>FORMAÇÃO E CERTIFICAÇÕES EM PORTUGUÊS</strong></summary>
 
 <br/>
 
@@ -473,7 +473,7 @@ Not every quest happens in front of a terminal.
 Maybe these interests connect with my approach to technology: I enjoy exploring systems, understanding their rules, and discovering new ways to solve problems.
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>FORA DO TERMINAL — EM PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>FORA DO TERMINAL — EM PORTUGUÊS</strong></summary>
 
 <br/>
 
@@ -512,7 +512,7 @@ I'm interested in conversations and opportunities involving **Business Intellige
 </p>
 
 <details>
-<summary><img src="assets/brazil-waving.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>VAMOS CONVERSAR — PORTUGUÊS</strong></summary>
+<summary><img src="assets/brazil-waving-new.gif" width="28" alt="Brazilian flag waving" /> &nbsp; <strong>VAMOS CONVERSAR — PORTUGUÊS</strong></summary>
 
 <br/>
 
