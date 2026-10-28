@@ -1,372 +1,289 @@
- <p align="center">
-  <img src="assets/banner.png" alt="Pixel-art fantasy landscape in violet and cyan" width="100%" />
-</p>
-
-<h1 align="center">ÍTALLO.EXE</h1>
+# 👾 Itallo Oliveira | BI & Data Analytics
 
 <p align="center">
-  <strong>BI &amp; DATA ANALYTICS · SQL · PYTHON · POWER BI</strong>
+  <img src="assets/banner.png" alt="Pixel art banner — Itallo Oliveira" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/itallo-pureza99/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-7C5CFC?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <strong>BI & Data Analytics · SQL · Python · Power BI · ETL · APIs · Automation</strong>
+</p>
+
+<p align="center">
   <a href="https://github.com/ItalloPureza">
-    <img src="https://img.shields.io/badge/GitHub-Portfolio-30303B?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-ItalloPureza-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/itallo-pureza99/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="mailto:purezaitallo@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-30303B?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact-8A2BE2?style=for-the-badge&logo=gmail" alt="Email" />
   </a>
-</p>
-
-<p align="center">
-  <code>Curiosity.exe → Data → Insights → Impact</code>
 </p>
 
 ---
 
-## `01 // PLAYER PROFILE`
+## 🎮 About Me
 
-I'm **Ítallo Oliveira**, a Computer Science graduate based in Belo Horizonte, Brazil, working with **Business Intelligence, Data Analytics, data pipelines, APIs, and automation**.
+I'm a Computer Science graduate focused on **Business Intelligence, Data Analytics, and data-driven solutions**.
 
-I enjoy turning scattered information into reliable data products. A dashboard is only the visible layer: trustworthy analytics also depends on extraction, transformation, persistence, modeling, business rules, validation, and the systems behind the data.
+My work goes beyond dashboards. I build and maintain data workflows that connect systems, transform raw information into reliable datasets, and turn business needs into useful indicators.
 
-My focus is connecting technical implementation with real business needs — building solutions that are understandable, maintainable, and useful for decision-making.
+I enjoy working across the entire data journey: from API integrations and ETL processes to data modeling, analysis, and visualization.
+
+- 📊 **BI & Analytics:** dashboards, KPIs, business rules, and actionable insights.
+- 🛠️ **Data Engineering:** extraction, transformation, data modeling, and historical data.
+- 🔌 **Integrations:** APIs, databases, and connections between business systems.
+- 🤖 **Automation & AI:** Python, workflow automation, and AI-assisted solutions.
+- 🎓 **Education:** Bachelor's degree in Computer Science, completed in 2025.
+- 📍 **Location:** Belo Horizonte, Brazil.
 
 <details>
-<summary>🇧🇷 Ler apresentação em português</summary>
+  <summary><strong>🇧🇷 &nbsp; Ler apresentação completa em português</strong></summary>
 
-Sou **Ítallo Oliveira**, bacharel em Ciência da Computação, de Belo Horizonte/MG, com experiência prática em **Business Intelligence, Análise de Dados, pipelines, APIs e automação**.
+  <br/>
 
-Gosto de transformar informações dispersas em produtos de dados confiáveis. Um dashboard é apenas a camada visível: uma análise consistente também depende de extração, tratamento, armazenamento, modelagem, regras de negócio, validação e dos sistemas que sustentam os dados.
+  <h3>🇧🇷 Sobre mim</h3>
 
-Meu foco é conectar a implementação técnica às necessidades reais do negócio, construindo soluções compreensíveis, sustentáveis e úteis para a tomada de decisão.
+  Sou formado em Ciência da Computação e atuo com foco em <strong>Business Intelligence, Análise de Dados e soluções orientadas por dados</strong>.
+
+  Meu trabalho vai além dos dashboards. Desenvolvo e mantenho fluxos de dados que conectam sistemas, transformam informações brutas em bases confiáveis e convertem necessidades do negócio em indicadores úteis.
+
+  Gosto de atuar em toda a jornada dos dados: desde integrações com APIs e processos de ETL até modelagem, análise e visualização.
+
+  - 📊 <strong>BI & Analytics:</strong> dashboards, KPIs, regras de negócio e análises acionáveis.
+  - 🛠️ <strong>Engenharia de Dados:</strong> extração, transformação, modelagem e histórico de dados.
+  - 🔌 <strong>Integrações:</strong> APIs, bancos de dados e conexões entre sistemas.
+  - 🤖 <strong>Automação & IA:</strong> Python, automação de processos e soluções com apoio de IA.
+  - 🎓 <strong>Formação:</strong> Bacharelado em Ciência da Computação, concluído em 2025.
+  - 📍 <strong>Localização:</strong> Belo Horizonte, Brasil.
+
+  <br/>
+
+  <p align="center"><strong>🇧🇷 FIM DA VERSÃO EM PORTUGUÊS</strong></p>
 
 </details>
 
-```text
-PLAYER     : Ítallo Oliveira
-CLASS      : BI & Data Analytics
-SPECIALTY  : SQL · Python · Power BI
-SYSTEMS    : ETL · APIs · Integrations
-AUTOMATION : n8n · AI workflows
-LOCATION   : Belo Horizonte, Brazil
-MISSION    : Turn data into reliable decisions
-```
+<br/>
+<hr/>
+<br/>
 
-<details>
-<summary>🇧🇷 Ver informações do perfil em português</summary>
+## 🧰 Tech Stack
 
-```text
-JOGADOR      : Ítallo Oliveira
-CLASSE       : BI & Data Analytics
-ESPECIALIDADE: SQL · Python · Power BI
-SISTEMAS     : ETL · APIs · Integrações
-AUTOMAÇÃO    : n8n · Fluxos com IA
-LOCALIZAÇÃO  : Belo Horizonte, MG, Brasil
-MISSÃO       : Transformar dados em decisões confiáveis
-```
-
-</details>
-
-## `02 // SKILL TREE`
-
-<details>
-<summary><strong>📊 BI & Analytics</strong></summary>
-
-- Power BI dashboards and operational reporting
-- Data modeling, DAX, and KPI definition
-- SQL queries and relational data analysis
-- Exploratory analysis and data validation
-- Business rules and metric consistency
-- Translating business questions into actionable insights
-
-<details>
-<summary>🇧🇷 Português — BI e Análise de Dados</summary>
-
-- Dashboards em Power BI e relatórios operacionais
-- Modelagem de dados, DAX e definição de indicadores
-- Consultas SQL e análise de dados relacionais
-- Análise exploratória e validação de dados
-- Regras de negócio e consistência de métricas
-- Transformação de perguntas do negócio em insights acionáveis
-
-</details>
-</details>
-
-<details>
-<summary><strong>⚙️ Data Engineering & ETL</strong></summary>
-
-- Python-based data extraction and transformation
-- ETL workflows and data persistence
-- MySQL and relational databases
-- Historical data collection and analysis
-- Data quality and consistency checks
-- Investigating refresh, volume, and processing bottlenecks
-
-<details>
-<summary>🇧🇷 Português — Engenharia de Dados e ETL</summary>
-
-- Extração e transformação de dados com Python
-- Fluxos de ETL e persistência de dados
-- MySQL e bancos de dados relacionais
-- Construção de históricos e análises ao longo do tempo
-- Verificações de qualidade e consistência dos dados
-- Investigação de gargalos de atualização, volume e processamento
-
-</details>
-</details>
-
-<details>
-<summary><strong>🔌 APIs & Integrations</strong></summary>
-
-- REST API integrations and pagination
-- Response handling and data validation
-- Connecting business systems and services
-- Troubleshooting errors and inconsistencies
-- Technical documentation and integration reliability
-
-<details>
-<summary>🇧🇷 Português — APIs e Integrações</summary>
-
-- Integrações com APIs REST e paginação
-- Tratamento de respostas e validação dos dados
-- Conexão entre sistemas e serviços de negócio
-- Investigação de erros e inconsistências
-- Documentação técnica e confiabilidade das integrações
-
-</details>
-</details>
-
-<details>
-<summary><strong>🤖 Automation & AI</strong></summary>
-
-- Workflow automation with n8n
-- Python scripts for repetitive tasks and validation
-- API-driven automation
-- Exploring practical AI applications in technical workflows
-- Connecting data processes and business operations
-
-<details>
-<summary>🇧🇷 Português — Automação e Inteligência Artificial</summary>
-
-- Automação de fluxos com n8n
-- Scripts Python para tarefas repetitivas e validações
-- Automações orientadas por APIs
-- Exploração de aplicações práticas de IA em fluxos técnicos
-- Integração entre processos de dados e operações de negócio
-
-</details>
-</details>
-
-## `03 // CURRENT LOADOUT`
-
-<p>
-  <img src="https://img.shields.io/badge/Python-30303B?style=for-the-badge&logo=python&logoColor=9B83FF" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-30303B?style=for-the-badge&logo=mysql&logoColor=9B83FF" alt="SQL" />
-  <img src="https://img.shields.io/badge/Power%20BI-30303B?style=for-the-badge&logo=powerbi&logoColor=9B83FF" alt="Power BI" />
-  <img src="https://img.shields.io/badge/Power%20Query-30303B?style=for-the-badge&logo=microsoftpowerbi&logoColor=9B83FF" alt="Power Query" />
-  <img src="https://img.shields.io/badge/APIs-30303B?style=for-the-badge&logo=fastapi&logoColor=9B83FF" alt="APIs" />
-  <img src="https://img.shields.io/badge/n8n-30303B?style=for-the-badge&logo=n8n&logoColor=9B83FF" alt="n8n" />
-  <img src="https://img.shields.io/badge/AWS-30303B?style=for-the-badge&logo=amazonwebservices&logoColor=9B83FF" alt="AWS" />
-  <img src="https://img.shields.io/badge/Git-30303B?style=for-the-badge&logo=git&logoColor=9B83FF" alt="Git" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000" alt="Power BI" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=ffffff" alt="SQL" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" alt="Python" />
+  <img src="https://img.shields.io/badge/Power%20Query-5A2D82?style=for-the-badge&logo=powerbi&logoColor=ffffff" alt="Power Query" />
+  <img src="https://img.shields.io/badge/DAX-512BD4?style=for-the-badge&logo=powerbi&logoColor=ffffff" alt="DAX" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=ffffff" alt="AWS" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
 </p>
 
-| Technology | How I use it |
-|:--|:--|
-| SQL / MySQL | Querying, organizing, and persisting data |
-| Python | ETL, validation, integrations, and automation |
-| Power BI / DAX | Data modeling, indicators, and dashboards |
-| Power Query | Data preparation and transformation |
-| REST APIs | Integrating systems and extracting information |
-| n8n | Workflow automation |
-| AWS | Cloud foundations and infrastructure concepts |
-| Git / GitHub | Version control and project documentation |
+| Area | Technologies and practices |
+|---|---|
+| **Business Intelligence** | Power BI, DAX, Power Query, KPI design, dashboard development |
+| **Data & Databases** | SQL, MySQL, data modeling, data quality, historical datasets |
+| **ETL & Integrations** | Python, REST APIs, data extraction, transformation, scheduled workflows |
+| **Cloud & Infrastructure** | AWS fundamentals, cloud databases, data access and connectivity |
+| **Automation & AI** | Python automation, workflow orchestration, AI-assisted development |
+| **Development Practices** | Git, documentation, testing, troubleshooting, technical discovery |
 
 <details>
-<summary>🇧🇷 Ver tecnologias e aplicações em português</summary>
+  <summary><strong>🇧🇷 &nbsp; Ver tecnologias e competências em português</strong></summary>
 
-| Tecnologia | Como utilizo |
-|:--|:--|
-| SQL / MySQL | Consultar, organizar e persistir dados |
-| Python | ETL, validação, integrações e automação |
-| Power BI / DAX | Modelagem de dados, indicadores e dashboards |
-| Power Query | Preparação e transformação de dados |
-| APIs REST | Integração entre sistemas e extração de informações |
-| n8n | Automação de fluxos |
-| AWS | Fundamentos de nuvem e conceitos de infraestrutura |
-| Git / GitHub | Controle de versão e documentação de projetos |
+  <br/>
+
+  <h3>🇧🇷 Stack tecnológica</h3>
+
+  | Área | Tecnologias e práticas |
+  |---|---|
+  | <strong>Business Intelligence</strong> | Power BI, DAX, Power Query, definição de KPIs e desenvolvimento de dashboards |
+  | <strong>Dados e Bancos</strong> | SQL, MySQL, modelagem, qualidade e histórico de dados |
+  | <strong>ETL e Integrações</strong> | Python, APIs REST, extração, transformação e fluxos agendados |
+  | <strong>Cloud e Infraestrutura</strong> | Fundamentos AWS, bancos em nuvem, acesso e conectividade |
+  | <strong>Automação e IA</strong> | Automação com Python, orquestração de fluxos e desenvolvimento assistido por IA |
+  | <strong>Práticas de Desenvolvimento</strong> | Git, documentação, testes, investigação de problemas e descoberta técnica |
+
+  <br/>
+
+  <p align="center"><strong>🇧🇷 FIM DA VERSÃO EM PORTUGUÊS</strong></p>
 
 </details>
 
-## `04 // FEATURED QUEST`
+<br/>
+<hr/>
+<br/>
 
-### [Painel Operacional — Power BI](https://github.com/ItalloPureza/painel_operacional)
+## 🚀 Featured Project
 
-A reusable operational BI model designed to bring sector indicators into one consistent experience.
+### 📊 Painel Operacional
 
-The starting problem was familiar: information spread across different systems, parallel spreadsheets, and teams reporting different numbers. When metrics disagree, meetings can turn into debates about which source is correct instead of focusing on results.
+A reusable Power BI model designed to centralize operational indicators that were previously distributed across different systems and spreadsheets.
 
-The project brings the experience together in a central operational dashboard:
+The project focuses on more than visualization: it brings together business rules, historical context, access control, and data freshness in a single operational experience.
 
-- **Centralized overview:** a home page with operational sectors and role-based visibility through Row-Level Security (RLS).
-- **Goals vs. results:** targets and actual results presented together, with goals supplied through an internal API in the original implementation.
-- **Historical team attribution:** results are associated with the team a person belonged to at the time, preserving historical interpretation when teams change.
-- **Data freshness monitoring:** a data-health view indicating how current each source is.
+**Key features**
 
-The public portfolio version is designed to be reusable: it uses fictional data and a spreadsheet instead of the original database. A written guide helps people understand, maintain, and adapt the model, including with AI-assisted workflows.
+- **Centralized overview:** a home page bringing together operational areas.
+- **Role-based access:** Row-Level Security (RLS) to control data visibility by profile.
+- **Goals vs. actuals:** operational results compared against goals, including goals sourced from an internal API.
+- **Historical attribution:** results associated with the team a person belonged to during the relevant period.
+- **Data health monitoring:** visibility into the freshness of each data source.
+- **Reusable public model:** a version adapted for demonstration, using fictional data and a spreadsheet instead of the original database.
+- **Maintenance guidance:** documentation designed to help developers understand and adapt the model, including with AI-assisted workflows.
 
 **Technologies:** Power BI · Power Query · DAX · RLS · APIs · AWS · Python
 
+<p align="center">
+  <a href="https://github.com/ItalloPureza/painel_operacional">
+    <img src="https://img.shields.io/badge/View%20Project-GitHub-8A2BE2?style=for-the-badge&logo=github" alt="View project on GitHub" />
+  </a>
+</p>
+
 <details>
-<summary>🇧🇷 Ler descrição completa do Painel Operacional em português</summary>
+  <summary><strong>🇧🇷 &nbsp; Ler descrição completa do Painel Operacional em português</strong></summary>
 
-Um modelo reutilizável de BI operacional, criado para reunir indicadores de diferentes setores em uma experiência consistente.
+  <br/>
 
-O problema inicial era familiar: informações espalhadas por sistemas diferentes, planilhas paralelas e equipes apresentando números divergentes. Quando os indicadores não batem, reuniões podem acabar discutindo qual fonte está correta em vez de analisar os resultados.
+  <h3>🇧🇷 Painel Operacional</h3>
 
-O projeto reúne essa experiência em um painel operacional centralizado:
+  Um modelo reutilizável de BI operacional, desenvolvido para centralizar indicadores que antes estavam distribuídos entre diferentes sistemas e planilhas.
 
-- **Visão centralizada:** página inicial com os setores da operação e visibilidade por perfil usando Row-Level Security (RLS).
-- **Metas x resultados:** metas e resultados realizados apresentados em conjunto; na implementação original, as metas são fornecidas por uma API interna.
-- **Atribuição histórica por equipe:** os resultados são associados à equipe da qual a pessoa fazia parte naquele período, preservando a leitura histórica mesmo quando as equipes mudam.
-- **Monitoramento da atualização dos dados:** uma página de saúde dos dados indica o quão atualizadas estão as fontes.
+  O projeto vai além da visualização: reúne regras de negócio, contexto histórico, controle de acesso e acompanhamento da atualização dos dados em uma única experiência operacional.
 
-A versão pública do portfólio foi preparada para ser reutilizável: utiliza dados fictícios e uma planilha no lugar do banco de dados original. Há também um guia escrito para ajudar a entender, manter e adaptar o modelo, inclusive com apoio de ferramentas de IA.
+  <strong>Principais recursos</strong>
 
-**Tecnologias:** Power BI · Power Query · DAX · RLS · APIs · AWS · Python
+  - <strong>Visão centralizada:</strong> página inicial que reúne os setores da operação.
+  - <strong>Acesso por perfil:</strong> utilização de Row-Level Security (RLS) para controlar a visibilidade dos dados.
+  - <strong>Metas x resultados:</strong> comparação dos resultados operacionais com metas, incluindo metas obtidas por meio de uma API interna.
+  - <strong>Atribuição histórica:</strong> resultados associados à equipe à qual a pessoa pertencia no período correspondente.
+  - <strong>Saúde dos dados:</strong> acompanhamento da atualização de cada fonte de dados.
+  - <strong>Modelo público reutilizável:</strong> versão adaptada para demonstração, com dados fictícios e uma planilha no lugar do banco de dados original.
+  - <strong>Guia de manutenção:</strong> documentação para facilitar o entendimento e a adaptação do modelo, inclusive com apoio de ferramentas de IA.
 
-> A demonstração utiliza dados fictícios. Nunca publique dados da empresa, credenciais ou detalhes confidenciais de implementação em um repositório público.
+  <strong>Tecnologias:</strong> Power BI · Power Query · DAX · RLS · APIs · AWS · Python
 
-**[Acessar o repositório →](https://github.com/ItalloPureza/painel_operacional)**
+  <br/>
+
+  <p align="center">
+    <a href="https://github.com/ItalloPureza/painel_operacional">
+      <img src="https://img.shields.io/badge/Ver%20Projeto-GitHub-8A2BE2?style=for-the-badge&logo=github" alt="Ver projeto no GitHub" />
+    </a>
+  </p>
+
+  <br/>
+
+  <p align="center"><strong>🇧🇷 FIM DA VERSÃO EM PORTUGUÊS</strong></p>
 
 </details>
 
-> The demonstration uses fictional data. Never publish company data, credentials, or confidential implementation details in a public repository.
+<br/>
+<hr/>
+<br/>
 
-**[Open the repository →](https://github.com/ItalloPureza/painel_operacional)**
+## 🧪 What I Care About
 
-## `05 // QUEST LOG`
-
-These are recurring problem spaces from my professional experience, not claims of separate public projects.
-
-- **Operational intelligence:** consolidating indicators and applying consistent business rules.
-- **Data pipelines & historical analysis:** extracting, transforming, persisting, and validating data over time.
-- **Integration & data quality:** investigating APIs, comparing sources, and finding discrepancies.
-- **Automation & reliability:** reducing manual work and improving the dependability of data processes.
+- Building dashboards around **clear business questions**, not just attractive visuals.
+- Designing reliable data pipelines that account for source limitations and refresh behavior.
+- Preserving historical context instead of looking only at the current state.
+- Making metrics consistent, traceable, and understandable to stakeholders.
+- Connecting technical implementation to operational decisions.
 
 <details>
-<summary>🇧🇷 Ler frentes de atuação em português</summary>
+  <summary><strong>🇧🇷 &nbsp; Ler princípios de trabalho em português</strong></summary>
 
-Estas são frentes recorrentes da minha experiência profissional, e não alegações de que existam projetos públicos separados para cada uma delas.
+  <br/>
 
-- **Inteligência operacional:** centralização de indicadores e aplicação de regras de negócio consistentes.
-- **Pipelines e análise histórica:** extração, transformação, persistência e validação de dados ao longo do tempo.
-- **Integração e qualidade de dados:** investigação de APIs, comparação entre fontes e identificação de divergências.
-- **Automação e confiabilidade:** redução de trabalho manual e aumento da confiabilidade dos processos de dados.
+  <h3>🇧🇷 Como penso sobre dados</h3>
+
+  - Desenvolver dashboards a partir de <strong>perguntas de negócio claras</strong>, e não apenas de uma preocupação estética.
+  - Criar pipelines confiáveis, considerando limitações das fontes e o comportamento das atualizações.
+  - Preservar o contexto histórico, em vez de analisar somente o estado atual.
+  - Tornar os indicadores consistentes, rastreáveis e compreensíveis para as pessoas envolvidas.
+  - Conectar a implementação técnica às decisões operacionais.
+
+  <br/>
+
+  <p align="center"><strong>🇧🇷 FIM DA VERSÃO EM PORTUGUÊS</strong></p>
 
 </details>
 
-## `06 // EDUCATION & CERTIFICATIONS`
+<br/>
+<hr/>
+<br/>
 
-- **B.Sc. in Computer Science** — graduated in 2025
+## 🎓 Education & Certifications
+
+- **Bachelor's Degree in Computer Science** — completed in 2025.
 - **AWS Academy Graduate — Cloud Foundations**
 - **CertiProf — Lifelong Learning**
 - **Alura — Desenvolvendo com Inteligência: IA para Dev**
 
 <details>
-<summary>🇧🇷 Ver formação e certificações em português</summary>
+  <summary><strong>🇧🇷 &nbsp; Ver formação e certificações em português</strong></summary>
 
-- **Bacharelado em Ciência da Computação** — formado em 2025
-- **AWS Academy Graduate — Cloud Foundations**
-- **CertiProf — Lifelong Learning**
-- **Alura — Desenvolvendo com Inteligência: IA para Dev**
+  <br/>
 
-</details>
+  <h3>🇧🇷 Formação e certificações</h3>
 
-## `07 // PASSIVE SKILLS`
+  - <strong>Bacharelado em Ciência da Computação</strong> — concluído em 2025.
+  - <strong>AWS Academy Graduate — Cloud Foundations</strong>
+  - <strong>CertiProf — Lifelong Learning</strong>
+  - <strong>Alura — Desenvolvendo com Inteligência: IA para Dev</strong>
 
-```text
-[+] Analytical thinking
-[+] Troubleshooting
-[+] Data storytelling
-[+] Systems thinking
-[+] Technical communication
-[+] Continuous improvement
-[+] Business-oriented problem solving
-```
+  <br/>
 
-I care about more than making something work once. I want to understand why it works, where it can fail, how it scales, and whether the result can be trusted.
-
-<details>
-<summary>🇧🇷 Ler habilidades e abordagem profissional em português</summary>
-
-```text
-[+] Pensamento analítico
-[+] Resolução de problemas
-[+] Comunicação de dados
-[+] Visão sistêmica
-[+] Comunicação técnica
-[+] Melhoria contínua
-[+] Solução de problemas orientada ao negócio
-```
-
-Mais do que fazer algo funcionar uma vez, quero entender por que funciona, onde pode falhar, como escala e se o resultado é confiável.
+  <p align="center"><strong>🇧🇷 FIM DA VERSÃO EM PORTUGUÊS</strong></p>
 
 </details>
 
-## `08 // OUTSIDE THE TERMINAL`
+<br/>
+<hr/>
+<br/>
 
-When I'm away from data and technical problems, I'm usually exploring games and the systems behind them:
+## 📬 Let's Connect
 
-- 🎮 RPGs and immersive worlds
-- 🕹️ Retro games and nostalgia
-- 🎨 Indie games and creative experiences
-- 🎮 Nintendo and classic games
-- 🧱 Minecraft, exploration, and building
+I'm interested in opportunities and conversations involving **BI, Data Analytics, data engineering, APIs, and automation**.
 
-Maybe that's part of the connection: I enjoy exploring systems, understanding their rules, and discovering different ways to solve problems.
-
-<details>
-<summary>🇧🇷 Ler sobre meus interesses em português</summary>
-
-Quando não estou lidando com dados e problemas técnicos, geralmente estou explorando jogos e os sistemas por trás deles:
-
-- 🎮 RPGs e mundos imersivos
-- 🕹️ Jogos retrô e nostalgia
-- 🎨 Jogos indie e experiências criativas
-- 🎮 Nintendo e jogos clássicos
-- 🧱 Minecraft, exploração e construção
-
-Talvez exista uma conexão nisso: gosto de explorar sistemas, entender suas regras e descobrir diferentes formas de resolver problemas.
-
-</details>
-
-## `09 // CONNECT`
-
-- **LinkedIn:** [linkedin.com/in/itallo-pureza99](https://www.linkedin.com/in/itallo-pureza99/)
-- **GitHub:** [github.com/ItalloPureza](https://github.com/ItalloPureza)
-- **Email:** [purezaitallo@gmail.com](mailto:purezaitallo@gmail.com)
-- **Location:** Belo Horizonte, MG, Brazil
+<p align="center">
+  <a href="https://www.linkedin.com/in/itallo-pureza99/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="Connect on LinkedIn" />
+  </a>
+  <a href="mailto:purezaitallo@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-8A2BE2?style=for-the-badge&logo=gmail" alt="Contact by email" />
+  </a>
+</p>
 
 <details>
-<summary>🇧🇷 Ver contatos em português</summary>
+  <summary><strong>🇧🇷 &nbsp; Ler contato e interesses profissionais em português</strong></summary>
 
-- **LinkedIn:** [linkedin.com/in/itallo-pureza99](https://www.linkedin.com/in/itallo-pureza99/)
-- **GitHub:** [github.com/ItalloPureza](https://github.com/ItalloPureza)
-- **E-mail:** [purezaitallo@gmail.com](mailto:purezaitallo@gmail.com)
-- **Localização:** Belo Horizonte, MG, Brasil
+  <br/>
+
+  <h3>🇧🇷 Vamos conversar</h3>
+
+  Tenho interesse em oportunidades e conversas relacionadas a <strong>BI, Análise de Dados, engenharia de dados, APIs e automação</strong>.
+
+  <p align="center">
+    <a href="https://www.linkedin.com/in/itallo-pureza99/">
+      <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin" alt="Conectar pelo LinkedIn" />
+    </a>
+    <a href="mailto:purezaitallo@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Enviar%20mensagem-8A2BE2?style=for-the-badge&logo=gmail" alt="Enviar e-mail" />
+    </a>
+  </p>
+
+  <br/>
+
+  <p align="center"><strong>🇧🇷 FIM DA VERSÃO EM PORTUGUÊS</strong></p>
 
 </details>
 
 ---
 
 <p align="center">
-  <strong>Curiosity is the engine. Data is the map. Solutions are the objective.</strong><br/>
-  <em>A curiosidade é o motor. Os dados são o mapa. As soluções são o objetivo.</em>
+  <sub>Built with data, curiosity, and a little bit of pixel art. 🎮</sub>
 </p>
 
 <p align="center">
-  <code>END OF TRANSMISSION // ITALLO.EXE</code>
+  <sub>🇧🇷 Feito com dados, curiosidade e um pouco de pixel art. 🎮</sub>
 </p>
