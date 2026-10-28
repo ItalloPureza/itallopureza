@@ -1,253 +1,234 @@
-<!--
-GITHUB PROFILE README
-Antes de publicar:
-1. Troque SEU_USUARIO pelo seu username do GitHub.
-2. Substitua SEU_LINKEDIN pelo link do seu perfil.
-3. Adicione assets/banner.png se quiser usar o banner.
-4. Ajuste a seção de projeto em destaque quando seu primeiro projeto estiver pronto.
--->
+from pathlib import Path
+from PIL import Image
+import shutil, zipfile, os
 
-<p align="center">
-  <img src="./assets/banner.png" alt="Itallo.exe — Data, Systems and Automation" width="100%" />
+base = Path("/mnt/data/itallo_github_profile")
+assets = base / "assets"
+assets.mkdir(parents=True, exist_ok=True)
+
+source_banner = Path("/mnt/data/a_wide_cinematic_pixel_art_landscape_scene_at_nig.png")
+banner_path = assets / "banner.png"
+shutil.copy2(source_banner, banner_path)
+
+readme = r'''<p align="center">
+  <img src="assets/banner.png" alt="Pixel-art fantasy landscape in violet and cyan tones" width="100%" />
 </p>
 
-<h1 align="center">ITALLO.EXE</h1>
+<h1 align="center">ÍTALLO.EXE</h1>
 
 <p align="center">
-  <b>DATA ANALYTICS · BUSINESS INTELLIGENCE · AUTOMATION</b>
+  <strong>BI &amp; DATA ANALYTICS · SQL · PYTHON · POWER BI</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/SEU_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-7C5CFC?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://www.linkedin.com/in/itallo-pureza99/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-7C5CFC?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <img src="https://img.shields.io/badge/SQL-Data%20Analysis-30303B?style=flat-square&logo=mysql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/Python-Automation-30303B?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Power%20BI-Analytics-30303B?style=flat-square&logo=powerbi&logoColor=white" alt="Power BI"/>
+  <a href="https://github.com/ItalloPureza">
+    <img src="https://img.shields.io/badge/GitHub-Portfolio-30303B?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:purezaitallo@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-30303B?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
 <p align="center">
-  <code>Curiosity.exe</code> → <code>Data</code> → <code>Insights</code> → <code>Impact</code>
+  <code>Curiosity.exe → Data → Insights → Impact</code>
 </p>
 
 ---
 
 ## `01 // PLAYER PROFILE`
 
-Olá! Sou **Ítallo Oliveira**, bacharel em Ciência da Computação, com atuação em **Análise de Dados, Business Intelligence e Automação**.
+### EN
 
-Meu trabalho envolve transformar informações dispersas em dados confiáveis, conectar sistemas e construir soluções que ajudem as pessoas a entender melhor a operação e tomar decisões.
+I'm **Ítallo Oliveira**, a Computer Science graduate based in Belo Horizonte, Brazil, working with **Business Intelligence, Data Analytics, data pipelines, APIs, and automation**.
 
-Gosto de olhar além do resultado visual. Um dashboard é apenas a ponta do processo: por trás dele existem extração, tratamento, armazenamento, modelagem, regras de negócio, validações e decisões técnicas que determinam se aquela informação realmente merece confiança.
+I enjoy turning scattered information into reliable data products. For me, a dashboard is only the visible layer: trustworthy analytics also depends on extraction, transformation, persistence, modeling, business rules, validation, and the systems behind the data.
 
-Tenho interesse especial na conexão entre dados, engenharia de software, infraestrutura e inteligência artificial.
+My focus is on connecting technical implementation with real business needs — building solutions that are understandable, maintainable, and useful for decision-making.
+
+### PT-BR
+
+Sou **Ítallo Oliveira**, bacharel em Ciência da Computação, de Belo Horizonte/MG, com experiência prática em **Business Intelligence, Análise de Dados, pipelines, APIs e automação**.
+
+Gosto de transformar informações dispersas em soluções confiáveis. Um dashboard é apenas a camada visível: por trás de uma análise consistente existem extração, tratamento, armazenamento, modelagem, regras de negócio, validação e os sistemas que sustentam os dados.
+
+Meu foco é conectar a implementação técnica às necessidades do negócio, construindo soluções úteis para análise e tomada de decisão.
 
 ```text
-PLAYER       : Itallo Oliveira
-CLASS        : Data Analyst / BI
-SPECIALTY    : Analytics · ETL · Integrations
-MAIN TOOLS   : SQL · Python · Power BI
-AUTOMATION   : APIs · n8n · AI workflows
-BACKGROUND   : Computer Science
-MISSION      : Transform data into reliable decisions
+PLAYER       : Ítallo Oliveira
+CLASS        : BI & Data Analytics
+SPECIALTY    : SQL · Python · Power BI
+SYSTEMS      : ETL · APIs · Integrations
+AUTOMATION   : n8n · AI workflows
+LOCATION     : Belo Horizonte, Brazil
+MISSION      : Turn data into reliable decisions
 ```
 
 ## `02 // SKILL TREE`
 
-*Conhecimentos desenvolvidos por meio de formação, experiência profissional e prática.*
-
 <details>
-<summary><b>📊 Analytics & Business Intelligence</b></summary>
+<summary><strong>📊 BI & Analytics</strong></summary>
 
-- Power BI: dashboards, relatórios operacionais e indicadores
-- Modelagem de dados e construção de métricas
-- SQL para consulta, transformação e análise
-- DAX e cálculos analíticos
-- Análise exploratória e validação de informações
-- Definição e interpretação de regras de negócio
-- Investigação de divergências entre indicadores
-- Comunicação de resultados técnicos para públicos de negócio
+- Power BI dashboards and operational reporting
+- Data modeling, DAX, and KPI definition
+- SQL queries and relational data analysis
+- Exploratory analysis and data validation
+- Business rules and metric consistency
+- Translating business questions into actionable insights
 
 </details>
 
 <details>
-<summary><b>⚙️ Data Engineering & ETL</b></summary>
+<summary><strong>⚙️ Data Engineering & ETL</strong></summary>
 
-- Extração de dados de APIs e sistemas de negócio
-- Transformação e organização de dados com Python
-- Pipelines de ETL e persistência em bancos relacionais
-- MySQL e consultas SQL
-- Construção de históricos para análises temporais
-- Validação de integridade e consistência dos dados
-- Investigação de gargalos de processamento e atualização
-- Consideração de volume, frequência e confiabilidade nas extrações
+- Python-based extraction and transformation
+- ETL workflows and data persistence
+- MySQL and relational databases
+- Historical data collection and analysis
+- Data quality and consistency checks
+- Investigating refresh, volume, and processing bottlenecks
 
 </details>
 
 <details>
-<summary><b>🔌 APIs & Systems Integration</b></summary>
+<summary><strong>🔌 APIs & Integrations</strong></summary>
 
-- Integrações com APIs REST
-- Paginação, tratamento de respostas e validação de dados
-- Comunicação entre sistemas e serviços
-- Investigação de erros e inconsistências
-- Testes de comportamento e reprodução de problemas
-- Análise de limitações, disponibilidade e desempenho
-- Documentação técnica de processos e integrações
+- REST API integrations and pagination
+- Response handling and data validation
+- Connecting business systems and services
+- Troubleshooting errors and inconsistencies
+- Technical documentation and integration reliability
 
 </details>
 
 <details>
-<summary><b>🤖 Automation & Artificial Intelligence</b></summary>
+<summary><strong>🤖 Automation & AI</strong></summary>
 
-- Automação de fluxos com n8n
-- Scripts em Python para tarefas repetitivas
-- Integrações orientadas a eventos e APIs
-- Exploração de aplicações práticas de IA
-- Uso de ferramentas de IA como apoio ao desenvolvimento e à produtividade
-- Redução de tarefas manuais e melhoria de processos
-
-</details>
-
-<details>
-<summary><b>☁️ Cloud, Infrastructure & Reliability</b></summary>
-
-- Fundamentos de computação em nuvem
-- AWS Cloud Foundations
-- Conceitos de bancos de dados gerenciados
-- Conectividade entre aplicações, infraestrutura e bancos
-- Monitoramento e investigação de falhas
-- Entendimento do impacto da infraestrutura na disponibilidade dos dados
-- Noções de desempenho, escalabilidade e confiabilidade
-
-</details>
-
-<details>
-<summary><b>🧩 Software Engineering & Problem Solving</b></summary>
-
-- Formação em Ciência da Computação
-- Fundamentos de arquitetura de software
-- Análise técnica de requisitos e regras de negócio
-- Investigação e reprodução de bugs
-- Testes, documentação e descoberta técnica
-- Comunicação entre áreas de negócio e desenvolvimento
-- Resolução estruturada de problemas
+- Workflow automation with n8n
+- Python scripts for repetitive tasks and validation
+- API-driven automation
+- Exploring practical AI applications in technical workflows
+- Connecting data processes and business operations
 
 </details>
 
 ## `03 // CURRENT LOADOUT`
 
 <p>
-  <img src="https://img.shields.io/badge/Python-30303B?style=for-the-badge&logo=python&logoColor=9B83FF" alt="Python"/>
-  <img src="https://img.shields.io/badge/SQL-30303B?style=for-the-badge&logo=mysql&logoColor=9B83FF" alt="SQL"/>
-  <img src="https://img.shields.io/badge/Power%20BI-30303B?style=for-the-badge&logo=powerbi&logoColor=9B83FF" alt="Power BI"/>
-  <img src="https://img.shields.io/badge/MySQL-30303B?style=for-the-badge&logo=mysql&logoColor=9B83FF" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/APIs-30303B?style=for-the-badge&logo=fastapi&logoColor=9B83FF" alt="APIs"/>
-  <img src="https://img.shields.io/badge/n8n-30303B?style=for-the-badge&logo=n8n&logoColor=9B83FF" alt="n8n"/>
-  <img src="https://img.shields.io/badge/AWS-30303B?style=for-the-badge&logo=amazonwebservices&logoColor=9B83FF" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Git-30303B?style=for-the-badge&logo=git&logoColor=9B83FF" alt="Git"/>
+  <img src="https://img.shields.io/badge/Python-30303B?style=for-the-badge&logo=python&logoColor=9B83FF" alt="Python" />
+  <img src="https://img.shields.io/badge/SQL-30303B?style=for-the-badge&logo=mysql&logoColor=9B83FF" alt="SQL" />
+  <img src="https://img.shields.io/badge/Power%20BI-30303B?style=for-the-badge&logo=powerbi&logoColor=9B83FF" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Power%20Query-30303B?style=for-the-badge&logo=microsoftpowerpoint&logoColor=9B83FF" alt="Power Query" />
+  <img src="https://img.shields.io/badge/APIs-30303B?style=for-the-badge&logo=fastapi&logoColor=9B83FF" alt="APIs" />
+  <img src="https://img.shields.io/badge/n8n-30303B?style=for-the-badge&logo=n8n&logoColor=9B83FF" alt="n8n" />
+  <img src="https://img.shields.io/badge/AWS-30303B?style=for-the-badge&logo=amazonwebservices&logoColor=9B83FF" alt="AWS" />
+  <img src="https://img.shields.io/badge/Git-30303B?style=for-the-badge&logo=git&logoColor=9B83FF" alt="Git" />
 </p>
 
-| Tecnologia | Aplicação |
+| Technology | How I use it |
 |:--|:--|
-| Python | ETL, scripts, validação e automação |
-| SQL / MySQL | Consulta, organização e persistência de dados |
-| Power BI | Modelagem, indicadores e dashboards |
-| APIs REST | Integração e extração de informações |
-| n8n | Automação de workflows |
-| AWS | Fundamentos de nuvem e infraestrutura |
-| Git / GitHub | Versionamento e portfólio técnico |
+| SQL / MySQL | Querying, organizing, and persisting data |
+| Python | ETL, validation, integrations, and automation |
+| Power BI / DAX | Data modeling, indicators, and dashboards |
+| Power Query | Data preparation and transformation |
+| REST APIs | Integrating systems and extracting information |
+| n8n | Workflow automation |
+| AWS | Cloud foundations and infrastructure concepts |
+| Git / GitHub | Version control and project documentation |
 
-## `04 // FEATURED PROJECT`
+## `04 // FEATURED QUEST`
 
-*O espaço destinado ao projeto que você está preparando para publicar.*
+### [Painel Operacional — Power BI](https://github.com/ItalloPureza/painel_operacional)
 
-> **Próximo passo:** substitua esta seção pelo nome, descrição e link do primeiro projeto assim que ele estiver publicado.
+**A reusable operational BI model designed to bring sector indicators into one consistent experience.**
 
-```text
-[ PROJECT SLOT ]
-Status       : Preparing release
-Documentation: To be published
-Source code  : Coming soon
-```
+The starting problem was familiar: information spread across different systems, parallel spreadsheets, and teams reporting different numbers. When metrics disagree, meetings can turn into debates about which source is correct.
 
-Quero que cada projeto publicado aqui demonstre não apenas o resultado final, mas também o problema resolvido, as decisões técnicas, as tecnologias utilizadas e o que foi aprendido durante o desenvolvimento.
+The project brings the experience together in a central operational dashboard:
 
-Quando houver projetos suficientes, esta seção poderá evoluir para uma seleção de repositórios por categoria: Analytics, Data Engineering, Automation e Software.
+- **Centralized overview:** a home page with the operational sectors and role-based visibility through Row-Level Security (RLS).
+- **Goals vs. results:** targets and actual results presented together, with goals supplied through an internal API in the original implementation.
+- **Historical team attribution:** results are associated with the team a person belonged to at the time, preserving historical interpretation when teams change.
+- **Data freshness monitoring:** a data-health view indicating how current each source is.
+
+The public portfolio version is intended to be reusable: it uses fictional data and a spreadsheet in place of the original database. A written guide is included to help people understand, maintain, and adapt the model, including with AI-assisted workflows.
+
+**Technologies:** Power BI · Power Query · DAX · RLS · APIs · AWS · Python
+
+> The demonstration uses fictional data. Company data, credentials, and confidential implementation details should never be included in the public repository.
+
+**[Open the repository →](https://github.com/ItalloPureza/painel_operacional)**
 
 ## `05 // QUEST LOG`
 
-Desafios que fazem parte da minha experiência profissional e dos temas que exploro tecnicamente.
+These are recurring problem spaces from my professional experience — not claims of separate public projects.
 
-**[QUEST 01] Operational Intelligence**
+- **Operational intelligence:** consolidating indicators and applying consistent business rules.
+- **Data pipelines & historical analysis:** extracting, transforming, persisting, and validating data for reliable analysis over time.
+- **Integration & data quality:** investigating APIs, comparing sources, and finding discrepancies.
+- **Automation & reliability:** reducing manual work and improving the dependability of data processes.
 
-Consolidar indicadores operacionais, estruturar regras de negócio e criar uma visão consistente dos dados para apoiar acompanhamento e decisões.
+## `06 // EDUCATION & CERTIFICATIONS`
 
-**[QUEST 02] Data Pipelines & Historical Analysis**
+- **B.Sc. in Computer Science** — completed in 2025
+- **AWS Academy Graduate — Cloud Foundations**
+- **CertiProf — Lifelong Learning**
+- **Alura — Desenvolvendo com Inteligência: IA para Dev**
 
-Trabalhar com extração, transformação e persistência de dados para viabilizar análises históricas e reduzir a dependência de informações pontuais.
-
-**[QUEST 03] Data Quality & Integration**
-
-Investigar respostas de APIs, validar informações, comparar fontes e identificar divergências que podem comprometer os indicadores.
-
-**[QUEST 04] Automation & Reliability**
-
-Automatizar etapas repetitivas, investigar falhas e melhorar a confiabilidade dos processos que sustentam as análises.
-
-**[QUEST 05] Technical Discovery**
-
-Conectar necessidades de negócio e implementação técnica por meio de testes, documentação, investigação e resolução estruturada de problemas.
-
-*Esses itens representam áreas de atuação, não projetos públicos independentes. Os repositórios serão adicionados quando estiverem prontos para divulgação.*
-
-## `06 // PASSIVE SKILLS`
+## `07 // PASSIVE SKILLS`
 
 ```text
-[UNLOCKED]  Analytical thinking
-[UNLOCKED]  Problem solving
-[UNLOCKED]  Data storytelling
-[UNLOCKED]  Systems thinking
-[UNLOCKED]  Technical communication
-[UNLOCKED]  Continuous improvement
-[UNLOCKED]  Business-oriented analysis
-[UNLOCKED]  Troubleshooting
+[+] Analytical thinking
+[+] Troubleshooting
+[+] Data storytelling
+[+] Systems thinking
+[+] Technical communication
+[+] Continuous improvement
+[+] Business-oriented problem solving
 ```
 
-Acredito que tecnologia não se resume a fazer algo funcionar. É preciso entender por que funciona, quais são suas limitações, como pode falhar e se o resultado é confiável para quem depende dele.
+I care about more than making something work once. I want to understand why it works, where it can fail, how it scales, and whether the result can be trusted.
 
-## `07 // OUTSIDE THE TERMINAL`
+## `08 // OUTSIDE THE TERMINAL`
 
-Nem toda missão acontece diante de um terminal.
+When I'm away from data and technical problems, I'm usually exploring games and the systems behind them:
 
-- 🎮 RPGs e mundos imersivos
-- 🕹️ Jogos retrô e nostalgia
-- 🎨 Jogos indie e experiências criativas
-- 🎮 Nintendo e jogos clássicos
-- 🧱 Minecraft, exploração e construção
-- 🧠 Jogos que recompensam estratégia, curiosidade e experimentação
+- 🎮 RPGs and immersive worlds
+- 🕹️ Retro games and nostalgia
+- 🎨 Indie games and creative experiences
+- 🎮 Nintendo and classic games
+- 🧱 Minecraft, exploration, and building
 
-Talvez exista uma conexão entre essas coisas e meu interesse por tecnologia: gosto de explorar sistemas, entender suas regras e descobrir novas maneiras de resolver problemas.
+Maybe that's part of the connection: I enjoy exploring systems, understanding their rules, and discovering different ways to solve problems.
 
-## `08 // CONNECT`
+## `09 // CONNECT`
 
-<p>
-  <a href="https://www.linkedin.com/in/SEU_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-7C5CFC?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/SEU_USUARIO">
-    <img src="https://img.shields.io/badge/GitHub-Explore%20my%20work-30303B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
-
-Tenho interesse em dados, BI, engenharia de dados, automação, inteligência artificial e em tudo que envolva construir soluções úteis e confiáveis.
+- **LinkedIn:** [linkedin.com/in/itallo-pureza99](https://www.linkedin.com/in/itallo-pureza99/)
+- **GitHub:** [github.com/ItalloPureza](https://github.com/ItalloPureza)
+- **Email:** [purezaitallo@gmail.com](mailto:purezaitallo@gmail.com)
+- **Location:** Belo Horizonte, MG, Brazil
 
 ---
 
 <p align="center">
-  <b>Curiosity is the engine. Data is the map. Solutions are the objective.</b>
+  <strong>Curiosity is the engine. Data is the map. Solutions are the objective.</strong>
 </p>
 
 <p align="center">
   <code>END OF TRANSMISSION // ITALLO.EXE</code>
 </p>
+'''
+
+(base / "README.md").write_text(readme, encoding="utf-8")
+
+zip_path = Path("/mnt/data/Itallo_GitHub_Profile_Package.zip")
+with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
+    z.write(base / "README.md", "README.md")
+    z.write(banner_path, "assets/banner.png")
+
+print("Created files:")
+print(f"README: {base / 'README.md'}")
+print(f"Banner: {banner_path}")
+print(f"ZIP package: {zip_path}")
